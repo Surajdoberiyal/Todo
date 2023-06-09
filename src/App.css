@@ -1,0 +1,72 @@
+.homwe_wrapper {
+  width: 100%;
+  height: 60vh;
+}
+.bg_light {
+  background-color: whitesmoke;
+}
+
+.text-truncate-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  width: 250px;
+  overflow: hidden;
+}
+
+.cart_circle {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #13122e;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+.navLink {
+  text-decoration: none;
+}
+.product-card {
+  transition: all 0.3s ease-in-out;
+}
+.product-card:hover {
+  scale: 1.04;
+}
+.product-card-title {
+  color: darkblue;
+}
+.product-card h4:hover {
+  color: rgb(0, 0, 0);
+}
+.bg-transparent button {
+  background-color: transparent !important;
+  color: black !important;
+  border: none !important;
+}
+.bg-transparent button::after {
+  content: none !important;
+}
+
+.w-300 {
+  width: 300px !important;
+}
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.user_details th {
+  width: 150px !important;
+}
+
+.bg_warning {
+  background: #fada80 !important;
+}
+.bg_success {
+  background: #8af074 !important;
+}
